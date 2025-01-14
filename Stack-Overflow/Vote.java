@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Vote {
+public class Vote {
+    private Question question;
+    private Answer answer;
 }

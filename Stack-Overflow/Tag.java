@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Tag {
+public class Tag {
+    private int id;
+    private String name;
 }
