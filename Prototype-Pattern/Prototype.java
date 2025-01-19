@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Prototype {
+public interface Prototype {
+    public Prototype clone();
 }
