@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface ICommand {
+public interface ICommand {
+    public void execute();
 }

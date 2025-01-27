@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface AbstractExpression {
+public interface AbstractExpression {
+    int interpret(Context context);
 }

@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class TurnAcOnCommand {
+public class TurnAcOnCommand implements ICommand{
+    AirConditioner ac;
+
+    public TurnAcOnCommand(AirConditioner ac){
+        this.ac=ac;
+    }
+
+    @Override
+    public void execute() {
+        ac.turnOnAc();
+    }
 }
