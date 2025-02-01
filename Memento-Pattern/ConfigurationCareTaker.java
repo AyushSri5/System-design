@@ -12,7 +12,7 @@ public class ConfigurationCareTaker {
         if(!history.isEmpty()){
             int lastIndex = history.size() -1;
             ConfigurationMemento lastMemento = history.get(lastIndex);
-            System.out.println("Undo Command");
+            System.out.println("Undo Command 2");
             history.remove(lastMemento);
             return lastMemento;
         }
