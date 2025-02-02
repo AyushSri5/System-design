@@ -1,4 +1,4 @@
-public class Mushroom implements ToppingDecorator{
+public class Mushroom extends ToppingDecorator{
     BasePizza pizza;
     public Mushroom(BasePizza basePizza){
         pizza=basePizza;
